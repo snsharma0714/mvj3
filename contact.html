@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Contact Us</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#" class="active">Contact us</a>
+            <a href="#">Support</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h1>Get in Touch</h1>
+                <p>We'd love to hear from you. Please fill out this form or shoot us an email.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Address</h3>
+                            <p>123 Business Avenue, New York, NY 10001</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

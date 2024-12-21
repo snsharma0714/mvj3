@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Gallary</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About us</a>
+            <a href="product.html">Coursres</a>
+            <a href="#">Write <i class="fas fa-pen"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="filters">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search blogs...">
+            </div>
+            <div class="categories">
+                <span class="active">All</span>
+                <span>Technology</span>
+                <span>Travel</span>
+                <span>Food</span>
+                <span>Lifestyle</span>
+            </div>
+        </div>
+
+        <div class="featured-post">
+            <div class="featured-image">
+                <img src="/headers/images/images.jpg" alt="Featured Post">
+                <div class="category-tag">Featured</div>
+            </div>
+            <div class="featured-content">
+                <h1>The Future of Web Development in 2024</h1>
+                <div class="post-meta">
+                    <span><i class="fas fa-user"></i> Rajesh Patel</span>
+                    <span><i class="fas fa-calendar"></i> March 15, 2024</span>
+                    <span><i class="fas fa-comments"></i> 24 Comments</span>
+                </div>
+                <p>Explore the latest trends and technologies shaping the future of web development...</p>
+                <button class="read-more">Read More</button>
+            </div>
+        </div>
+
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="/headers/images/unnamed-2-1.jpg" alt="Blog Post">
+                    <div class="category-tag">Technology</div>
+                </div>
+                <div class="blog-content">
+                    <h2>Getting Started with AI Development</h2>
+                    <div class="post-meta">
+                        <span><i class="fas fa-user"></i> Priya Sharma</span>
+                        <span><i class="fas fa-calendar"></i> March 14, 2024</span>
+                        <span><i class="fas fa-clock"></i> 5 min read</span>
+                    </div>
+                    <p>Learn the fundamentals of AI development and how to implement machine learning in your projects. Discover the latest tools and frameworks that are shaping the future of artificial intelligence.</p>
+                    <div class="card-footer">
+                        <button class="read-more">Read More</button>
+                        <div class="engagement">
+                            <span><i class="fas fa-heart"></i> 125</span>
+                            <span><i class="fas fa-comment"></i> 18</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <span>...</span>
+            <a href="#">10</a>
+        </div>
+    </div>
+</body>
+</html> 

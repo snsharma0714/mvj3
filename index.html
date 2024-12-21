@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="#" class="logo">Mvj College</a>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="product.html">Courses</a>
+            <a href="contact.html">Contact us</a>
+            <a href="blog.html">Galary</a>
+
+        </div>
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="login.html" class="signup-btn">Sign Up</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Courses</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                const mobileMenu = document.getElementById('mobileMenu');
+                if (mobileMenu.style.display === 'block') {
+                    mobileMenu.style.display = 'none';
+                } else {
+                    mobileMenu.style.display = 'block';
+                }
+            }
+            // Initially hide mobile menu
+            document.getElementById('mobileMenu').style.display = 'none';
+        </script>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to the Future</h1>
+            <p>Creating innovative Mind for tomorrow's challenges</p>
+            <div class="hero-buttons">
+                <a href="#" class="primary-btn">Get Started</a>
+                <a href="#" class="secondary-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/headers/images/maxresdefault.jpg" alt="Hero Image">
+        </div>
+    </section>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3 class="logo-text">Mvj College</h3>
+                <p>
+                    We are dedicated to providing the best service to our Students
+                    Join us in our journey to create amazing Mnds
+                </p>
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; mvj@.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Courses</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for updates</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="btn-subscribe">
+                        Subscribe <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-shape"></div>
+    </footer>
+</body>
